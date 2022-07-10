@@ -26,3 +26,5 @@ hs_p_es_a = hs_p_es.groupby("time.month") - hs_p_es.groupby("time.month").mean()
 # 保存
 eqsst = xr.Dataset({"ObsSST": hs_p_es_a})
 eqsst.to_netcdf("./data/eqsst.nc")
+
+# 最新一次
