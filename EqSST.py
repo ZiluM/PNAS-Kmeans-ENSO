@@ -1,5 +1,5 @@
 import xarray as xr
-
+import eofs
 data_path = "../DATA/"
 
 # 选定所需的范围
